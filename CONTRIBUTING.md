@@ -11,4 +11,4 @@ Merci de votre intérêt pour contribuer au projet Gestionnaire de Factures Lega
 
 ## Règles de contribution
 - Veuillez suivre le style de code existant dans le projet.
-- Testez vos modifications avant de soumettre une Pull Request.
+- Testez vos modifications et assurez-vous qu'elles fonctionnent correctement avant de soumettre une Pull Request.
