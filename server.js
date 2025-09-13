@@ -8,7 +8,8 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Connexion à MongoDB
-mongoose.connect('mongodb://localhost:27017/factures', {
+const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/factures';
+mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
